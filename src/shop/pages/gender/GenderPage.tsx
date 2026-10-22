@@ -1,9 +1,7 @@
-import React from 'react'
 import { CustomJumboTrom } from '../../components/CustomJumboTrom'
 import { CustomPagination } from '../../../components/custom/CustomPagination'
 import { ProductsGrid } from '../../components/ProductsGrid'
 import { useParams } from 'react-router'
-import { usePrefetchQuery } from '@tanstack/react-query'
 import { useProducts } from '../../hooks/useProducts'
 
 export const GenderPage = () => {
